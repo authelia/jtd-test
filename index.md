@@ -1,11 +1,11 @@
 ## username
-
-&nbsp;
+<div>
 string 
 {: .label .label-purple } 
 
 required
 {: .label .label-red }
+</div>
 
 Example uername config option description. 
 
