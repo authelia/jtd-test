@@ -1,0 +1,7 @@
+title: Authelia Just the Docs Test Site
+description: Just for testing markdown to html stuff
+remote_theme: pmarsceill/just-the-docs
+exclude:
+- Gemfile
+- Gemfile.lock
+- .gitignore
