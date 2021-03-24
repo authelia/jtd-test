@@ -1,6 +1,9 @@
 ## username
+x
+
 string 
-{: .label .label-purple } required
+{: .label .label-purple } 
+required
 {: .label .label-red }
 
 Example uername config option description. 
