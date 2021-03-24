@@ -1,5 +1,6 @@
 ## username
-<div>
+
+<div markdown="1">
 string 
 {: .label .label-purple } 
 
