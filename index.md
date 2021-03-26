@@ -102,11 +102,11 @@ Example etc config option description.
 ### username
 
 <div markdown="1">
-type | string 
+type: string 
 {: .label .label-purple } 
-default | apple
+default: apple
 {: .label .label-blue }
-required | yes
+required: yes
 {: .label .label-red }
 </div>
 
@@ -115,11 +115,11 @@ Example uername config option description.
 ### id
 
 <div markdown="1">
-type | integer
+type: integer
 {: .label .label-purple }
-default | 5
+default: 5
 {: .label .label-blue }
-required | no
+required: no
 {: .label .label-green }
 </div>
 
@@ -128,11 +128,11 @@ Example id config option description.
 ### etc
 
 <div markdown="1">
-type | list
+type: list
 {: .label .label-purple }
-default | []
+default: []
 {: .label .label-blue }
-required | situational
+required: situational
 {: .label .label-yellow }
 </div>
 
