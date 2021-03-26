@@ -21,11 +21,11 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 <div markdown="1">
 string 
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default:apple
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required
-{: .label .label-red }
+{: .label .label-config .label-red }
 </div>
 
 Example uername config option description. 
@@ -34,11 +34,11 @@ Example uername config option description.
 
 <div markdown="1">
 integer
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default:5
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 optional
-{: .label .label-green }
+{: .label .label-config .label-green }
 </div>
 
 Example id config option description. 
@@ -47,11 +47,11 @@ Example id config option description.
 
 <div markdown="1">
 list
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default:[]
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 semi-optional
-{: .label .label-yellow }
+{: .label .label-config .label-yellow }
 </div>
 
 Example etc config option description. 
@@ -62,11 +62,11 @@ Example etc config option description.
 
 <div markdown="1">
 type:string 
-{: .label .label-purple } 
+{: .label .label-config .label-purple } 
 default:apple
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required:yes
-{: .label .label-red }
+{: .label .label-config .label-red }
 </div>
 
 Example uername config option description. 
@@ -75,11 +75,11 @@ Example uername config option description.
 
 <div markdown="1">
 type:integer
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default:5
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required:no
-{: .label .label-green }
+{: .label .label-config .label-green }
 </div>
 
 Example id config option description. 
@@ -88,11 +88,11 @@ Example id config option description.
 
 <div markdown="1">
 type:list
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default:[]
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required:situational
-{: .label .label-yellow }
+{: .label .label-config .label-yellow }
 </div>
 
 Example etc config option description. 
@@ -103,11 +103,11 @@ Example etc config option description.
 
 <div markdown="1">
 type: string 
-{: .label .label-purple } 
+{: .label .label-config .label-purple } 
 default: apple
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required: yes
-{: .label .label-red }
+{: .label .label-config .label-red }
 </div>
 
 Example uername config option description. 
@@ -116,11 +116,11 @@ Example uername config option description.
 
 <div markdown="1">
 type: integer
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default: 5
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required: no
-{: .label .label-green }
+{: .label .label-config .label-green }
 </div>
 
 Example id config option description. 
@@ -129,11 +129,11 @@ Example id config option description.
 
 <div markdown="1">
 type: list
-{: .label .label-purple }
+{: .label .label-config .label-purple }
 default: []
-{: .label .label-blue }
+{: .label .label-config .label-blue }
 required: situational
-{: .label .label-yellow }
+{: .label .label-config .label-yellow }
 </div>
 
 Example etc config option description. 
