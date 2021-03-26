@@ -137,3 +137,44 @@ required: situational
 </div>
 
 Example etc config option description. 
+
+## Example Four
+
+### username
+
+<div markdown="1">
+TYPE: string 
+{: .label .label-config .label-purple } 
+DEFAULT: apple
+{: .label .label-config .label-blue }
+REQUIRED: yes
+{: .label .label-config .label-red }
+</div>
+
+Example uername config option description. 
+
+### id
+
+<div markdown="1">
+TYPE: integer
+{: .label .label-config .label-purple }
+DEFAULT: 5
+{: .label .label-config .label-blue }
+REQUIRED: no
+{: .label .label-config .label-green }
+</div>
+
+Example id config option description. 
+
+### etc
+
+<div markdown="1">
+TYPE: list
+{: .label .label-config .label-purple }
+DEFAULT: []
+{: .label .label-config .label-blue }
+REQUIRED: situational
+{: .label .label-config .label-yellow }
+</div>
+
+Example etc config option description. 
