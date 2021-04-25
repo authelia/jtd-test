@@ -1,189 +1,47 @@
-# Index
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-## Example One
-
-### username
-
-<div markdown="1">
-string 
-{: .label .label-config .label-purple }
-default:apple
-{: .label .label-config .label-blue }
-required
-{: .label .label-config .label-red }
+# Table
+<div class="table-wrapper">
+    <table>
+        <thead>
+          <tr>
+            <th class="tbl-header">Stage</th>
+            <th class="tbl-header">Feature Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4" class="tbl-header">beta1<br></td>
+            <td>Callback Validation</td>
+          </tr>
+          <tr>
+            <td><a href="https://openid.net/specs/openid-connect-core-1_0.html#Consent" target="_blank" rel="noopener noreferrer">User Consent</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowSteps" target="_blank" rel="noopener noreferrer">Authorization Code Flow</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://openid.net/specs/openid-connect-discovery-1_0.html" target="_blank" rel="noopener noreferrer">OpenID Connect Discovery</a></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="tbl-header">beta2<br></td>
+            <td>Token Storage</td>
+          </tr>
+          <tr>
+            <td>Audit Storage</td>
+          </tr>
+          <tr>
+            <td rowspan="3" class="tbl-header">beta3</td>
+            <td><a href="https://openid.net/specs/openid-connect-backchannel-1_0.html" target="_blank" rel="noopener noreferrer">Back-Channel Logout</a></td>
+          </tr>
+          <tr>
+            <td>Deny Refresh on Session Expiration<br></td>
+          </tr>
+          <tr>
+            <td><a href="https://openid.net/specs/openid-connect-messages-1_0-20.html#rotate.sig.keys" target="_blank" rel="noopener noreferrer">Signing Key Rotation Policy</a><br></td>
+          </tr>
+          <tr>
+            <td class="tbl-header">stable</td>
+            <td>After previous stages are vetted for bug fixes</td>
+          </tr>
+        </tbody>
+    </table>
 </div>
-
-Example uername config option description. 
-
-### id
-
-<div markdown="1">
-integer
-{: .label .label-config .label-purple }
-default:5
-{: .label .label-config .label-blue }
-optional
-{: .label .label-config .label-green }
-</div>
-
-Example id config option description. 
-
-### etc
-
-<div markdown="1">
-list
-{: .label .label-config .label-purple }
-default:[]
-{: .label .label-config .label-blue }
-semi-optional
-{: .label .label-config .label-yellow }
-</div>
-
-Example etc config option description. 
-
-## Example Two
-
-### username
-
-<div markdown="1">
-type:string 
-{: .label .label-config .label-purple } 
-default:apple
-{: .label .label-config .label-blue }
-required:yes
-{: .label .label-config .label-red }
-</div>
-
-Example uername config option description. 
-
-### id
-
-<div markdown="1">
-type:integer
-{: .label .label-config .label-purple }
-default:5
-{: .label .label-config .label-blue }
-required:no
-{: .label .label-config .label-green }
-</div>
-
-Example id config option description. 
-
-### etc
-
-<div markdown="1">
-type:list
-{: .label .label-config .label-purple }
-default:[]
-{: .label .label-config .label-blue }
-required:situational
-{: .label .label-config .label-yellow }
-</div>
-
-Example etc config option description. 
-
-## Example Three
-
-### username
-<div markdown="1">
-type: string 
-{: .label .label-config .label-purple } 
-default: apple
-{: .label .label-config .label-blue }
-required: yes
-{: .label .label-config .label-red }
-</div>
-
-Example uername config option description. 
-
-### id
-<div markdown="1">
-type: integer
-{: .label .label-config .label-purple }
-default: 5
-{: .label .label-config .label-blue }
-required: no
-{: .label .label-config .label-green }
-</div>
-
-Example id config option description. 
-
-### etc
-<div markdown="1">
-type: list
-{: .label .label-config .label-purple }
-default: []
-{: .label .label-config .label-blue }
-required: situational
-{: .label .label-config .label-yellow }
-</div>
-
-Example etc config option description. 
-
-### blank default
-<div markdown="1">
-type: string
-{: .label .label-config .label-purple }
-default: ""
-{: .label .label-config .label-blue }
-required: situational
-{: .label .label-config .label-yellow }
-</div>
-
-Example etc config option description. 
-
-## Example Four
-
-### username
-
-<div markdown="1">
-TYPE: string 
-{: .label .label-config .label-purple } 
-DEFAULT: apple
-{: .label .label-config .label-blue }
-REQUIRED: yes
-{: .label .label-config .label-red }
-</div>
-
-Example uername config option description. 
-
-### id
-
-<div markdown="1">
-TYPE: integer
-{: .label .label-config .label-purple }
-DEFAULT: 5
-{: .label .label-config .label-blue }
-REQUIRED: no
-{: .label .label-config .label-green }
-</div>
-
-Example id config option description. 
-
-### etc
-
-<div markdown="1">
-TYPE: list
-{: .label .label-config .label-purple }
-DEFAULT: []
-{: .label .label-config .label-blue }
-REQUIRED: situational
-{: .label .label-config .label-yellow }
-</div>
-
-Example etc config option description. 
