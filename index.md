@@ -64,4 +64,5 @@
     </tbody>
 </table>
 
-*\* this stage has not been implemented as of yet*
+*1. this stage has not been implemented as of yet*
+*2. this individual feature has not been implemented as of yet*
