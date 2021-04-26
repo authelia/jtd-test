@@ -16,7 +16,7 @@
         <td><a href="https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowSteps" target="_blank" rel="noopener noreferrer">Authorization Code Flow</a></td>
       </tr>
       <tr>
-        <td class="tbl-beta-stage"><a href="https://openid.net/specs/openid-connect-discovery-1_0.html" target="_blank" rel="noopener noreferrer">OpenID Connect Discovery</a></td>
+        <td><a href="https://openid.net/specs/openid-connect-discovery-1_0.html" target="_blank" rel="noopener noreferrer">OpenID Connect Discovery</a></td>
       </tr>
       <tr>
         <td>RS256 Signature Strategy</td>
@@ -28,7 +28,7 @@
         <td>Per Client Authorization Policy (1FA/2FA)</td>
       </tr>
       <tr>
-        <td>Per Client Redirection URI's (Verified)</td>
+        <td class="tbl-beta-stage">Per Client Redirection URI's (Verified)</td>
       </tr>
       <tr>
         <td rowspan="2" class="tbl-header tbl-beta-stage">beta2<br></td>
