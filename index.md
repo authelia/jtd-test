@@ -51,8 +51,8 @@
         <td>Client Secrets Hashed in Configuration<br></td>
       </tr>
       <tr>
-        <td class="tbl-header tbl-beta-stage">stable</td>
-        <td class="tbl-beta-stage">After previous stages are vetted for bug fixes</td>
+        <td class="tbl-header tbl-beta-stage">GA</td>
+        <td class="tbl-beta-stage">General Availability after previous stages are vetted for bug fixes</td>
       </tr>
       <tr>
         <td rowspan="2" class="tbl-header">misc</td>
