@@ -9,7 +9,7 @@
     </thead>
     <tbody>
       <tr>
-        <td rowspan="4" class="tbl-header tbl-beta-stage">beta1<br></td>
+        <td rowspan="5" class="tbl-header tbl-beta-stage">beta1<br></td>
         <td>Callback Validation</td>
       </tr>
       <tr>
@@ -20,6 +20,9 @@
       </tr>
       <tr>
         <td class="tbl-beta-stage"><a href="https://openid.net/specs/openid-connect-discovery-1_0.html" target="_blank" rel="noopener noreferrer">OpenID Connect Discovery</a></td>
+      </tr>
+      <tr>
+        <td>RS256 Signature Strategy</td>
       </tr>
       <tr>
         <td rowspan="2" class="tbl-header tbl-beta-stage">beta2<br></td>
