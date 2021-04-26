@@ -31,14 +31,14 @@
         <td class="tbl-beta-stage">Per Client Redirection URI's (Verified)</td>
       </tr>
       <tr>
-        <td rowspan="2" class="tbl-header tbl-beta-stage">beta2<br></td>
+        <td rowspan="2" class="tbl-header tbl-beta-stage">beta2*<br></td>
         <td>Token Storage</td>
       </tr>
       <tr>
         <td class="tbl-beta-stage">Audit Storage</td>
       </tr>
       <tr>
-        <td rowspan="4" class="tbl-header tbl-beta-stage">beta3</td>
+        <td rowspan="4" class="tbl-header tbl-beta-stage">beta3*</td>
         <td><a href="https://openid.net/specs/openid-connect-backchannel-1_0.html" target="_blank" rel="noopener noreferrer">Back-Channel Logout</a></td>
       </tr>
       <tr>
@@ -51,7 +51,7 @@
         <td>Client Secrets Hashed in Configuration<br></td>
       </tr>
       <tr>
-        <td class="tbl-header tbl-beta-stage">GA</td>
+        <td class="tbl-header tbl-beta-stage">GA*</td>
         <td class="tbl-beta-stage">General Availability after previous stages are vetted for bug fixes</td>
       </tr>
       <tr>
