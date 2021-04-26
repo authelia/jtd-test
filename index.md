@@ -9,10 +9,7 @@
     </thead>
     <tbody>
       <tr>
-        <td rowspan="5" class="tbl-header tbl-beta-stage">beta1<br></td>
-        <td>Callback Validation</td>
-      </tr>
-      <tr>
+        <td rowspan="7" class="tbl-header tbl-beta-stage">beta1<br></td>
         <td><a href="https://openid.net/specs/openid-connect-core-1_0.html#Consent" target="_blank" rel="noopener noreferrer">User Consent</a></td>
       </tr>
       <tr>
@@ -23,6 +20,15 @@
       </tr>
       <tr>
         <td>RS256 Signature Strategy</td>
+      </tr>
+      <tr>
+        <td>Per Client Scope/Grant Type/Response Type Restriction</td>
+      </tr>
+      <tr>
+        <td>Per Client Authorization Policy (1FA/2FA)</td>
+      </tr>
+      <tr>
+        <td>Per Client Redirection URI's (Verified)</td>
       </tr>
       <tr>
         <td rowspan="2" class="tbl-header tbl-beta-stage">beta2<br></td>
