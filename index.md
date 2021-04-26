@@ -55,7 +55,7 @@
         <td class="tbl-beta-stage">General Availability after previous stages are vetted for bug fixes</td>
       </tr>
       <tr>
-        <td rowspan="2" class="tbl-header">misc</td>
+        <td rowspan="2" class="tbl-header">misc*</td>
         <td>List of other features that may be implemented</td>
       </tr>
       <tr>
