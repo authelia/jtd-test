@@ -28,7 +28,7 @@
         <td>Per Client Authorization Policy (1FA/2FA)</td>
       </tr>
       <tr>
-        <td class="tbl-beta-stage">Per Client Redirection URI's (Verified)</td>
+        <td class="tbl-beta-stage">Per Client List of Valid Redirection URI's</td>
       </tr>
       <tr>
         <td rowspan="2" class="tbl-header tbl-beta-stage">beta2*<br></td>
