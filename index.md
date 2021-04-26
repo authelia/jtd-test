@@ -29,7 +29,7 @@
         <td class="tbl-beta-stage">Audit Storage</td>
       </tr>
       <tr>
-        <td rowspan="3" class="tbl-header tbl-beta-stage">beta3</td>
+        <td rowspan="4" class="tbl-header tbl-beta-stage">beta3</td>
         <td><a href="https://openid.net/specs/openid-connect-backchannel-1_0.html" target="_blank" rel="noopener noreferrer">Back-Channel Logout</a></td>
       </tr>
       <tr>
@@ -37,6 +37,9 @@
       </tr>
       <tr>
         <td class="tbl-beta-stage"><a href="https://openid.net/specs/openid-connect-messages-1_0-20.html#rotate.sig.keys" target="_blank" rel="noopener noreferrer">Signing Key Rotation Policy</a><br></td>
+      </tr>
+      <tr>
+        <td>Client Secrets Hashed in Configuration<br></td>
       </tr>
       <tr>
         <td class="tbl-header tbl-beta-stage">stable</td>
