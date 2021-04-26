@@ -45,10 +45,10 @@
         <td>Deny Refresh on Session Expiration<br></td>
       </tr>
       <tr>
-        <td class="tbl-beta-stage"><a href="https://openid.net/specs/openid-connect-messages-1_0-20.html#rotate.sig.keys" target="_blank" rel="noopener noreferrer">Signing Key Rotation Policy</a><br></td>
+        <td><a href="https://openid.net/specs/openid-connect-messages-1_0-20.html#rotate.sig.keys" target="_blank" rel="noopener noreferrer">Signing Key Rotation Policy</a><br></td>
       </tr>
       <tr>
-        <td>Client Secrets Hashed in Configuration<br></td>
+        <td class="tbl-beta-stage">Client Secrets Hashed in Configuration<br></td>
       </tr>
       <tr>
         <td class="tbl-header tbl-beta-stage">GA*</td>
