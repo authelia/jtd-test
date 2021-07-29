@@ -3,7 +3,7 @@ The following table is a support matrix for Authelia features and specific rever
 |Proxy    |[Standard Support](#standard-support)                 |[Kubernetes Support](#kubernetes-support)             |[XHR Redirect](#xhr-redirect)                         |[Request Method](#request-method)                     |
 |:-------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|
 |[nginx]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
-|[traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
+|[Traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
 |[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>        |<span class="material-icons green">check_circle</span>|
 |[Envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 |[Caddy]  |<span class="material-icons orange">error</span>      |<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
@@ -45,7 +45,7 @@ some require you to configure this manually. At the present time all proxies tha
 [Standard Support](#standard-support) do support this.
 
 [nginx]: https://www.nginx.com/
-[traefik]: https://traefik.io/
+[Traefik]: https://traefik.io/
 [HAProxy]: https://www.haproxy.com/
 [Envoy]: https://www.envoyproxy.io/
 [Caddy]: https://caddyserver.com/
