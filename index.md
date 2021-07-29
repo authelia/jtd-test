@@ -7,8 +7,8 @@ The following table is a support matrix for Authelia features and specific rever
 |[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons green">check_circle</span>|
 |[Envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 |[Caddy]  |<span class="material-icons orange">error</span>      |<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
-|[Apache] |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |
-|[IIS]    |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |<span class="material-icons red">check_circle</span>  |
+|[Apache] |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |
+|[IIS]    |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |
 
 <span class="material-icons green">check_circle</span> *Support confirmed*
 
