@@ -5,7 +5,7 @@ The following table is a support matrix for Authelia features and specific rever
 |[nginx]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
 |[traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
 |[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>        |<span class="material-icons green">check_circle</span>|
-|[envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
+|[Envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 |[Caddy]  |<span class="material-icons orange">error</span>      |<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 
 - Support (confirmed): <span class="material-icons green">check_circle</span>
@@ -47,7 +47,7 @@ some require you to configure this manually. At the present time all proxies tha
 [nginx]: https://www.nginx.com/
 [traefik]: https://traefik.io/
 [HAProxy]: https://www.haproxy.com/
-[envoy]: https://www.envoyproxy.io/
+[Envoy]: https://www.envoyproxy.io/
 [Caddy]: https://caddyserver.com/
 [Kubernetes]: https://kubernetes.io/
 [Ingress Controller]: https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
