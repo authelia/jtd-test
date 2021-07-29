@@ -1,14 +1,53 @@
-# OpenID Connect
+The following table is a support matrix for Authelia features and specific reverse proxies. 
 
-|Implementation |Username      |Display Name|Mail |Group Name|Groups  |Distinguished Name|
-|:-------------:|:------------:|:----------:|:---:|:--------:|:------:|:----------------:|
-|custom         |N/A           |displayName |mail |cn        |N/A     |dn                |
-|activedirectory|sAMAccountName|displayName |mail |cn        |N/A     |distinguishedName |
-|freeipa        |uid           |displayName |mail |cn        |memberOf|dn                |
+|Proxy    |[Standard Support](#standard-support)                 |[Kubernetes Support](#kubernetes-support)             |[XHR Redirect](#xhr-redirect)                         |[Request Method](#request-method)                     |
+|:-------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|
+|[nginx]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
+|[traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
+|[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
+|[envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
+|[Caddy]  |<span class="material-icons orange">error</span>      |<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 
-Test [OpenID Connect] and [token lifespan]
+- Support (confirmed): <span class="material-icons green">check_circle</span>
+- Support (likely or investigating): <span class="material-icons orange">error</span>
+- Not Supported: <span class="material-icons red">cancel</span>
 
-[//]: # (Links)
+## Standard Support
 
-[OpenID Connect]: https://openid.net/connect/
-[token lifespan]: https://docs.apigee.com/api-platform/antipatterns/oauth-long-expiration
+Standard support includes the essential features in securing an application with Authelia such as:
+
+- Redirecting users to the Authelia portal if they are not authenticated.
+- Redirecting users to the target application after authentication has occurred successfully.
+
+It does not include actually running Authelia as a service behind the proxy, any proxy should be compatible with serving
+the Authelia portal itself. Standard support is only important for protected applications.
+
+## Kubernetes Support
+
+While proxies that generally support Authelia outside a [Kubernetes] cluster, there are a few situations where that does
+not translate to being possible when used as an [Ingress Controller]. There are various reasons for this such as the
+reverse proxy in question does not even support running as a [Kubernetes] [Ingress Controller], or the required modules
+to perform authentication transparently to the user are not typically available inside a cluster.
+
+More information about [Kubernetes] deployments of Authelia can be read in the 
+[documentation](../deployment/deployment-kubernetes.md).
+
+## XHR Redirect
+
+XML HTTP Requests do not typically redirect browsers when returned 30x status codes. Instead, the standard method is to
+return a 401 status code with a Location header. While this may seem trivial; currently there isn't wide support for it.
+For example nginx's ngx_http_auth_request_module does not seem to support this in any way.
+
+## Request Method
+
+Authelia detects the upstream request method using the X-Forwarded-Method header. Some proxies set this out of the box,
+some require you to configure this manually. At the present time all proxies that have 
+[Standard Support](#standard-support) do support this.
+
+[nginx]: https://www.nginx.com/
+[traefik]: https://traefik.io/
+[HAProxy]: https://www.haproxy.com/
+[envoy]: https://www.envoyproxy.io/
+[Caddy]: https://caddyserver.com/
+[Kubernetes]: https://kubernetes.io/
+[Ingress Controller]: https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
