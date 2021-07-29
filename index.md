@@ -1,9 +1,15 @@
+---
+layout: default
+title: Supported Proxies
+parent: Home
+nav_order: 2
+---
 
 The following table is a support matrix for Authelia features and specific reverse proxies.
 
 |Proxy    |[Standard Support](#standard)                                |[Kubernetes Support](#kubernetes)                            |[XHR Redirect](#xhr-redirect)                         |[Request Method](#request-method)                     |
 |:-------:|:-----------------------------------------------------------:|:-----------------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|
-|[NGINX]  |<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
+|[NGINX]  |[<span class="material-icons green">check_circle</span>](https://www.authelia.com/docs/deployment/supported-proxies/haproxy.html)|<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
 |[Traefik]|<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
 |[HAProxy]|<span class="material-icons green">check_circle</span> [docs]|<span class="material-icons red">cancel</span>               |<span class="material-icons orange">error</span>      |<span class="material-icons green">check_circle</span>|
 |[Envoy]  |<span class="material-icons orange">error</span>             |<span class="material-icons orange">error</span>             |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
