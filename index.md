@@ -4,7 +4,7 @@ The following table is a support matrix for Authelia features and specific rever
 |:-------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|
 |[nginx]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
 |[traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
-|[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
+|[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>        |<span class="material-icons green">check_circle</span>|
 |[envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 |[Caddy]  |<span class="material-icons orange">error</span>      |<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
 
