@@ -2,7 +2,7 @@ The following table is a support matrix for Authelia features and specific rever
 
 |Proxy    |[Standard Support](#standard-support)                 |[Kubernetes Support](#kubernetes-support)             |[XHR Redirect](#xhr-redirect)                         |[Request Method](#request-method)                     |
 |:-------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|:----------------------------------------------------:|
-|[nginx]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
+|[NGINX]  |<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons green">check_circle</span>|
 |[Traefik]|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|<span class="material-icons green">check_circle</span>|
 |[HAProxy]|<span class="material-icons green">check_circle</span>|<span class="material-icons red">cancel</span>        |<span class="material-icons orange">error</span>        |<span class="material-icons green">check_circle</span>|
 |[Envoy]  |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |<span class="material-icons orange">error</span>      |
@@ -36,7 +36,7 @@ More information about [Kubernetes] deployments of Authelia can be read in the
 
 XML HTTP Requests do not typically redirect browsers when returned 30x status codes. Instead, the standard method is to
 return a 401 status code with a Location header. While this may seem trivial; currently there isn't wide support for it.
-For example nginx's ngx_http_auth_request_module does not seem to support this in any way.
+For example [NGINX]'s ngx_http_auth_request_module does not seem to support this in any way.
 
 ## Request Method
 
@@ -44,7 +44,7 @@ Authelia detects the upstream request method using the X-Forwarded-Method header
 some require you to configure this manually. At the present time all proxies that have 
 [Standard Support](#standard-support) do support this.
 
-[nginx]: https://www.nginx.com/
+[NGINX]: https://www.nginx.com/
 [Traefik]: https://traefik.io/
 [HAProxy]: https://www.haproxy.com/
 [Envoy]: https://www.envoyproxy.io/
