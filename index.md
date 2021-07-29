@@ -1,10 +1,3 @@
----
-layout: default
-title: Supported Proxies
-parent: Home
-nav_order: 2
----
-
 The following table is a support matrix for Authelia features and specific reverse proxies.
 
 |Proxy    |[Standard Support](#standard)                                |[Kubernetes Support](#kubernetes)                            |[XHR Redirect](#xhr-redirect)                         |[Request Method](#request-method)                     |
